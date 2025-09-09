@@ -5,7 +5,7 @@ __SYD.page5 = function()
     return $(
         "div",
         {
-            style:"display:flex;justify-content:center;align-items:flex-start;gap:20px;width:100%;padding:15px;padding-bottom:50px;padding-top:80px;font-family:font2;position:relative;min-height:100vh;width:100vw;position:relative;background-color:transparent;background-image:url(./assets/p5.png);",
+            style:"display:flex;justify-content:center;align-items:flex-start;gap:20px;width:100%;padding:15px;padding-bottom:50px;padding-top:80px;font-family:font2;position:relative;min-height:100vh;width:100vw;position:relative;background-color:transparent;background-image:url(./assets/p5.png);background-position:left;",
             id:'about'
         },
         [
