@@ -31,7 +31,7 @@ __SYD["navbar"] = () => {
                     [
                         $("a", { href: "#about" , style:__sC["a_style"]()}, ["About"]),
                         $("a", { href: "#why" , style:__sC["a_style"]()}, ["Why $xingsworld"]),
-                        // $("a", { href: "#" , style:__sC["a_style"]()}, ["Why Us"]),
+                        $("a", { href: "#community" , style:__sC["a_style"]()}, ["Community"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["Tokenomics"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["Roadmap"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["API"]),
@@ -69,4 +69,5 @@ __SYD["navbar"] = () => {
         }
     }
   );
+
 };
