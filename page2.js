@@ -59,21 +59,24 @@ __SYD.buyNowBtn = () =>{
 
 
 __SYD.about_text = () =>{
-    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#14F195;border-radius:30px;color:#000000;display:flex;flex-direction:column;gap:15px;`},[
+    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#4AB6E8;border-radius:30px;color:#000000;display:flex;flex-direction:column;gap:15px;`},[
         $(
             "p",
             {
                 style:"font-size:20px;line-height:50px;border-bottom:1px solid;text-align:left;"
             }
             ,[
-                "About $xingsworld"
+                "About MR NICE $xingsworld"
             ]
         ),
         $("p" , {style:`text-align:left;font-size:16px;`} , [
-            `Mr. Nice isn’t just any cat—he’s the fluffy superstar who somehow ended up with his own houses, shops, and even VIP rooms (because why not?). While most cats are happy with a cardboard box, Mr. Nice lives in a world of mini-mansions built just for him. From tiny supermarkets to little cinemas, he explores it all with the calm confidence of someone who knows he’s in charge.`
+            `Xing Zhilei, a dad with a hammer and a heart full of love, builds a sprawling, full-sized cat mansion for his feline overlord, Mr. Nice. This isn’t your average scratching post—it’s a palace of ramps, tunnels, and cozy nooks, all made so Mr. Nice, the chillest cat on the block, could live like royalty.`
         ]),
         $("p" , {style:`text-align:left;font-size:16px;`} , [
-            `This site is our little corner of the internet dedicated to his adventures, his lifestyle, and, honestly, just the pure comedy of watching a cat live better than most humans. Welcome to the world of Mr. Nice—you’re in for a treat.`
+            `Xing’s TikTok (@xings.world, 637K+ followers, 7.2M likes) captures it all—epic builds, hammer swings, and Mr. Nice strutting through his empire like he owns the internet. When asked why he did it, Xing said simply: “My kid loves it”—and by kid, he meant his four-legged boss. The videos blew up, turning into pure gold for millions of fans cheering on this cat-dad duo.`
+        ]),
+        $("p" , {style:`text-align:left;font-size:16px;`} , [
+            `Now comes Mr. Nice $XINGSWORLD, the Solana meme coin turning Mr. Nice’s swagger into crypto clout. Built on Solana’s lightning-fast chain, this token is for the dreamers who’d build castles for their cats—and the degens chasing the next big moon. It’s not just a coin—it’s a vibe, a nod to every pet parent who’s ever gone all-in for their furry “kid.`
         ]),
         __SYD.contactBtn(),
         __SYD.copyCA()

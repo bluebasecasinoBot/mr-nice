@@ -5,7 +5,7 @@ __SYD.page3 = function()
     return $(
         "div",
         {
-            style:"display:flex;flex-direction:column;gap:20px;width:100%;padding:15px;padding-bottom:50px;padding-top:80px;font-family:font2;position:relative;min-height:100vh;width:100vw;position:relative;background-color:#14F195;",
+            style:"display:flex;flex-direction:column;gap:20px;width:100%;padding:15px;padding-bottom:50px;padding-top:80px;font-family:font2;position:relative;min-height:100vh;width:100vw;position:relative;background-color:#4AB6E8;",
             id:'about'
         },
         [
@@ -36,7 +36,7 @@ __SYD.canva1 = function()
 {
     return $(
         "canvas",
-        {style:`height:${__p(["page3","mobile"],false)?"300px":"400px"};width:${__p(["page3","mobile"],false)?"100%":"55%"};background:#9945FF;border:5px solid #000;border-radius:20px;align-self:flex-start;`},[],{type:"canva1"}
+        {style:`height:${__p(["page3","mobile"],false)?"300px":"400px"};width:${__p(["page3","mobile"],false)?"100%":"55%"};background:#FFD633;border:5px solid #000;border-radius:20px;align-self:flex-start;`},[],{type:"canva1"}
     )
 }
 
@@ -44,6 +44,6 @@ __SYD.canva2 = function()
 {
     return $(
         "canvas",
-        {style:`height:${__p(["page3","mobile"],false)?"300px":"500px"};width:${__p(["page3","mobile"],false)?"100%":"55%"};max-width:${__p(["page3","mobile"],false)?"unset":"500px"};background:#9945FF;border:5px solid #000;border-radius:20px;align-self:flex-end;transform:${__p(["page3","mobile"],false)?"unset":"translateY(-30px)"};`},[],{type:"canva2"}
+        {style:`height:${__p(["page3","mobile"],false)?"300px":"500px"};width:${__p(["page3","mobile"],false)?"100%":"55%"};max-width:${__p(["page3","mobile"],false)?"unset":"500px"};background:#FFD633;border:5px solid #000;border-radius:20px;align-self:flex-end;transform:${__p(["page3","mobile"],false)?"unset":"translateY(-30px)"};`},[],{type:"canva2"}
     )
 }

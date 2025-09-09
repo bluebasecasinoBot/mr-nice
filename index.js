@@ -7,6 +7,7 @@ import "./sliderEl.js"
 import "./page3.js"
 import "./page4.js"
 import "./page5.js"
+import "./faq.js"
 import "./footer.js"
 
 __SYD.container = function()
@@ -23,6 +24,7 @@ __SYD.container = function()
             __SYD.page2(),
             __SYD.page3(),
             __SYD.page4(),
+            __SYD.faq(),
             __SYD.page5(),
             __SYD.footer()
         ]
