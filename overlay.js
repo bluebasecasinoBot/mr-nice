@@ -12,7 +12,7 @@ __SYD.introPage = function()
             $(
                 "div",
                 {style:"height:500px;width:100%;max-width:900px;background-image:url(./assets/overlay.jpeg);border-radius:20px;"},
-                [],{genericStyle:["bg_cover"]}
+                [],{genericStyle:["bg_fit"]}
             ),
             $(
                 "div",
@@ -53,4 +53,5 @@ __SYD.introPage = function()
             }
         }
     )
+
 }
