@@ -4,7 +4,7 @@ __SYD.footer = function()
 {
     return $(
         "div",
-        {style:"height:fit-content;width:100%;padding:15px;display:flex;justify-content:center;align-items:cente;background-color:#FFD633;border-top:3px solid #000000;"},
+        {style:"height:fit-content;width:100%;padding:15px;display:flex;justify-content:center;align-items:cente;background-color:#9945FF;border-top:3px solid #000000;"},
         [
             __SYD.contactBtn_footer()
         ]

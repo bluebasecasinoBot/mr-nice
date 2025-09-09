@@ -6,7 +6,7 @@ __SYD["navbar"] = () => {
     "nav",
     {
       style:
-        `display:flex;justify-content:${__p(["navbar" , "mobile"],false)?"space-between":"center"};align-items:center;padding:15px 40px;background-color:#FFD633;color:#000000;position:fixed;top:${__p(["navbar" , "float"],false) ? "10px" : "0px"};left:50%;transform:translateX(-50%);width:${__p(["navbar" , "float"],false) ? "calc(100% - 20px)" : "100%"};z-index:99999;gap:30px;border-radius:${__p(["navbar" , "float"],false) ? "20px" : "0px"};border-bottom:2px solid #000;`,
+        `display:flex;justify-content:${__p(["navbar" , "mobile"],false)?"space-between":"center"};align-items:center;padding:15px 40px;background-color:#9945FF;color:#000000;position:fixed;top:${__p(["navbar" , "float"],false) ? "10px" : "0px"};left:50%;transform:translateX(-50%);width:${__p(["navbar" , "float"],false) ? "calc(100% - 20px)" : "100%"};z-index:99999;gap:30px;border-radius:${__p(["navbar" , "float"],false) ? "20px" : "0px"};border-bottom:2px solid #000;`,
     },
     [
       // Left: logo
@@ -30,7 +30,7 @@ __SYD["navbar"] = () => {
                     { style: __sC["nav_links"]({method:"add",style:{alignItems:`${__p(["navbar" , "mobile"],false)?"flex-start":"center"}`,flexDirection:`${__p(["navbar" , "mobile"],false)?"column":"row"}`,width:"100%",justifyContent:"center"}}) },
                     [
                         $("a", { href: "#about" , style:__sC["a_style"]()}, ["About"]),
-                        $("a", { href: "#why" , style:__sC["a_style"]()}, ["Why $xingsword"]),
+                        $("a", { href: "#why" , style:__sC["a_style"]()}, ["Why $xingsworld"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["Why Us"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["Tokenomics"]),
                         // $("a", { href: "#" , style:__sC["a_style"]()}, ["Roadmap"]),

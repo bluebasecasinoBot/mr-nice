@@ -11,11 +11,11 @@ __SYD["page4"] = () => {
             [
                 $("h2", {
                 style: "font-size:2.5rem; font-weight:700; color:#ffffff; margin-bottom:20px;"
-                }, ["Why Nice $xingsword"]),
+                }, ["Why $xingsworld"]),
                 
                 $("p", {
                 style: "font-size:1.1rem; line-height:1.6; color:#ffffff; max-width:800px;"
-                }, ["From TikTok to the blockchain — Mr. Nice has captured hearts by building incredible homes for his pets. Now, that same spirit of creativity, kindness, and fun lives on in $NICE, the meme coin for dreamers and builders."])
+                }, ["Xing Zhilei built Xing’s World for his son — a playful universe of tiny houses and pets. At the heart of it is Mr. Nice, the cat who stole the show. Now his spirit lives on in MR NICE $xingsworld, a coin made for fun, community, and good vibes."])
             ]),
 
             $("div", {
@@ -34,7 +34,7 @@ __SYD["page4"] = () => {
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
                                 style: "font-weight:600;"
-                            }, ["Inspired by Viral Culture – Born from the trend that everyone’s talking about"])
+                            }, ["Built on Culture – Straight from TikTok virality to the blockchain."])
                         ]),
                         
                         $("li",
@@ -46,7 +46,7 @@ __SYD["page4"] = () => {
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
                                 style: "font-weight:600;"
-                            }, ["Community-Driven – Powered by the people, growing stronger together."])
+                            }, ["Community-Powered – No big suits, just people having fun and growing together."])
                         ]),
                         
                         $("li",
@@ -70,7 +70,7 @@ __SYD["page4"] = () => {
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
                                 style: "font-weight:600;"
-                            }, ["Built for Fun – Memes, rewards, and a movement you can actually enjoy."])
+                            }, ["No Overthinking – It’s memes, it’s vibes, it’s good energy."])
                         ]),
 
                         $("li",
@@ -82,7 +82,7 @@ __SYD["page4"] = () => {
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
                                 style: "font-weight:600;"
-                            }, ["Giving Back – Future plans to support pet shelters and creative communities."])
+                            }, ["For the People (and Pets) – A coin that’s about fun first, charts second."])
                         ])
                     ])
                 ]),

@@ -59,21 +59,21 @@ __SYD.buyNowBtn = () =>{
 
 
 __SYD.about_text = () =>{
-    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#4AB6E8;border-radius:30px;color:#ffffff;display:flex;flex-direction:column;gap:15px;`},[
+    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#14F195;border-radius:30px;color:#000000;display:flex;flex-direction:column;gap:15px;`},[
         $(
             "p",
             {
                 style:"font-size:20px;line-height:50px;border-bottom:1px solid;text-align:left;"
             }
             ,[
-                "About $xingsword"
+                "About $xingsworld"
             ]
         ),
         $("p" , {style:`text-align:left;font-size:16px;`} , [
-            `$xingsword ain’t your boring, suit-and-tie crypto project. It’s a meme coin inspired by Mr. Nice, the dude who went viral for building crazy houses for his pets. Just like him, we’re all about good vibes, creativity, and building something cool together`
+            `Mr. Nice isn’t just any cat—he’s the fluffy superstar who somehow ended up with his own houses, shops, and even VIP rooms (because why not?). While most cats are happy with a cardboard box, Mr. Nice lives in a world of mini-mansions built just for him. From tiny supermarkets to little cinemas, he explores it all with the calm confidence of someone who knows he’s in charge.`
         ]),
         $("p" , {style:`text-align:left;font-size:16px;`} , [
-            `This coin is for the people who love memes, community, and maybe a little moon-madness 🚀. No overcomplicated promises — just a fun ride, a strong fam, and the chance to be part of the next big internet story.`
+            `This site is our little corner of the internet dedicated to his adventures, his lifestyle, and, honestly, just the pure comedy of watching a cat live better than most humans. Welcome to the world of Mr. Nice—you’re in for a treat.`
         ]),
         __SYD.contactBtn(),
         __SYD.copyCA()

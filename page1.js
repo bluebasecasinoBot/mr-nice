@@ -35,9 +35,10 @@ __SYD["page1"] = () => {
                     [
                     $(
                         "h1",
-                        { style: __sC["hero_title"]({method:"add",style:{color:"#FFD633"}}) , class:"hero_title" },
+                        { style: __sC["hero_title"]({method:"add",style:{color:"#9945FF"}}) , class:"hero_title" },
                         [
                             $("p",{style:__sC["stroked"]()},["MR NICE"]),
+                            $("p",{style:__sC["stroked"]()+"font-size:18px;font-weight:700;"},["($xingsworld)"]),
                             $(
                                 "div",
                                 { style: __sC["nav_actions"]() },
@@ -55,7 +56,7 @@ __SYD["page1"] = () => {
                                     ),
                                 ]
                             ),
-                            // $("p",{},["$xingsword"])
+                            // $("p",{},["$xingsworld"])
                         ]
                     ),
                     ]

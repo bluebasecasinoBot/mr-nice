@@ -18,7 +18,7 @@ __SYD.sliderMain = () =>{
             $(
                 'div',
                 {
-                    style:'height:100%;min-width:fit-content;background:#fdd523;display:flex;column-gap:30px;padding:0 15px;',
+                    style:'height:100%;min-width:fit-content;background:#9945FF;display:flex;column-gap:30px;padding:0 15px;',
                     class:"slider_anime"
                 },
                 [
@@ -47,7 +47,7 @@ __SYD.sliderMain2 = () =>{
             $(
                 'div',
                 {
-                    style:'height:100%;min-width:fit-content;background:#fdd523;display:flex;column-gap:30px;padding:0 15px;',
+                    style:'height:100%;min-width:fit-content;background:#9945FF;display:flex;column-gap:30px;padding:0 15px;',
                     class:"slider_anime"
                 },
                 [
@@ -65,8 +65,8 @@ __SYD.addNavElement = () =>{
             style:'height:100%;width:fit-content;display:flex;column-gap:15px;align-items:center'
         },
         [
-            $('img',{height:'50px',width:'50px',alt:'dog',style:"border-radius:50%;min-height:50px;min-width:50px;",src:'./assets/p1.png'},[]),
-            $('h2',{style:'font-weight:900;width:max-content;'},['$xingsword'])
+            $('div',{height:'50px',width:'50px',style:"border-radius:50%;min-height:50px;min-width:50px;background-image:url(./assets/p1.png);"},[],{genericStyle:["bg_cover"]}),
+            $('h2',{style:'font-weight:900;width:max-content;'},['$xingsworld'])
         ]
     )
 }
