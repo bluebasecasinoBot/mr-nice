@@ -60,6 +60,7 @@ __m(__SYD.container(),()=>{
     const canvas = __v["canva1"];
     const ctx = canvas.getContext("2d");
 
+    const video2 = document.createElement("video");
     const canvas2 = __v["canva2"];
     const ctx2 = canvas2.getContext("2d");
 
@@ -72,42 +73,27 @@ __m(__SYD.container(),()=>{
     video.playsInline = true;
     video.play();
 
-    const video2 = document.createElement("video");
-    video2.src = "./assets/canva2.mp4";
-    video2.autoplay = true;
-    video2.loop = true;
-    video2.muted = true;
-    video2.playsInline = true;
-    setTimeout(() => {
-        video2.play();
-    }, 2000);
-
-    let bool1 = false;
-    let bool2 = false;
-    let initDraw = false
-
     // Wait until metadata loads to size canvas
     video.addEventListener("loadedmetadata", () => {
         canvas.width = video.videoWidth;
         canvas.height = video.videoHeight;
-        bool1 = true;
-        if(bool1&&bool2&&!initDraw)
-        {
-            drawFrame();
-        }
+        drawFrame();
     });
 
-    // Wait until metadata loads to size canvas
-    video2.addEventListener("loadedmetadata", () => {
-        canvas2.width = video.videoWidth;
-        canvas2.height = video.videoHeight;
-        bool2 = true;
-        if(bool1&&bool2&&!initDraw)
-        {
-            drawFrame();
-        }
-        
-    });
+    setTimeout(() => {
+        video2.src = "./assets/canva2.mp4";
+        video2.autoplay = true;
+        video2.loop = true;
+        video2.muted = true;
+        video2.playsInline = true;
+        video2.play();
+
+        // Wait until metadata loads to size canvas
+        video2.addEventListener("loadedmetadata", () => {
+            canvas2.width = video.videoWidth;
+            canvas2.height = video.videoHeight;
+        });
+    }, 2000);
 
     function drawFrame() {
         if (!video.paused && !video.ended) {
