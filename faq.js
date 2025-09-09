@@ -37,7 +37,7 @@ __SYD.faqSubHeader = () =>{
                     $(
                         "div",
                         {
-                            style:`height:100vw;max-height:calc(100vh - 150px);width:${__p(["faqSubHeader" , "breakVal"],false) ? "100%" : "50%"};border-radius:20px;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/p4.png")`
+                            style:`height:100vw;max-height:calc(100vh - 150px);width:${__p(["faqSubHeader" , "breakVal"],false) ? "100%" : "50%"};border-radius:20px;display:flex;flex-direction:column;gap:20px;background-image:url("./assets/faq.png");background-position:left;`
                         },[],{genericStyle:["bg_cover"]}
                     ),
                     $(
