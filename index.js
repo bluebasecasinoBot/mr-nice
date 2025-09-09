@@ -1,6 +1,7 @@
 import { $, __m, __sC, __SYD, __v, manage_mediaQuery } from "./sydneyDom_v3.js"
 import "./styles.js";
 import "./navBar.js"
+import "./overlay.js"
 import "./page1.js"
 import "./page2.js"
 import "./sliderEl.js"
@@ -9,6 +10,7 @@ import "./page4.js"
 import "./page5.js"
 import "./faq.js"
 import "./footer.js"
+import { updateState } from "./stateAssets.js";
 
 __SYD.container = function()
 {
@@ -26,7 +28,8 @@ __SYD.container = function()
             __SYD.page4(),
             __SYD.faq(),
             __SYD.page5(),
-            __SYD.footer()
+            __SYD.footer(),
+            __SYD.introPage()
         ]
     )
 }
@@ -63,6 +66,9 @@ __m(__SYD.container(),()=>{
     const ctx = canvas.getContext("2d");
 
     const video2 = document.createElement("video");
+    document.body.appendChild(video2);
+    video2.style.display = "none";
+    video2.setAttribute("id","canva2_vid")
     const canvas2 = __v["canva2"];
     const ctx2 = canvas2.getContext("2d");
 
@@ -94,8 +100,10 @@ __m(__SYD.container(),()=>{
         video2.addEventListener("loadedmetadata", () => {
             canvas2.width = video.videoWidth;
             canvas2.height = video.videoHeight;
+
+            updateState({name:"introPage",prop:"showEnter",value:true});
         });
-    }, 2000);
+    }, 1000);
 
     function drawFrame() {
         if (!video.paused && !video.ended) {
