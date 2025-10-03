@@ -6,12 +6,12 @@ __SYD.page2 = () =>{
     return $(
         'div',
         {
-            style:"display:flex;flex-direction:column;gap:20px;width:100%;padding-top:80px;padding-bottom:100px;font-family:font2;position:relative;",
+            style:"display:flex;flex-direction:column;align-items:center;gap:20px;width:100%;padding-top:80px;padding-bottom:100px;font-family:font2;position:relative;",
             id:'about'
         },
         [
             __SYD.sliderMain(),
-            $('h2',{style:`font-size:2.5rem;font-weight:700;color:#fff;width:100%;text-align:center;`},['ABOUT']),
+            $('h2',{style:`font-size:2.5rem;font-weight:700;color:#F3BA2F;width:fit-content;text-align:center;padding:20px 30px;background-color:#000;border-radius:20px;border:1px solid rgba(255,255,255,.2);`},['ABOUT']),
             $(
                 "div",
                 {
@@ -54,12 +54,12 @@ __SYD.page2 = () =>{
 }
 
 __SYD.buyNowBtn = () =>{
-    return $('a',{href:'https://tools.smithii.io/launches-list/solana',target:'blank',style:`display:${__p(['navBar','__nav_d'],'flex')};align-items:center;justify-content:center;padding:15px 30px;text-decoration:none;`+__sC["txt_shade3"](),class:'btn_buy'},['Buy Now'],{genericStyle:['bg_fit']})
+    return $('a',{href:'#',target:'blank',style:`display:${__p(['navBar','__nav_d'],'flex')};align-items:center;justify-content:center;padding:15px 30px;text-decoration:none;`+__sC["txt_shade3"](),class:'btn_buy'},['Buy Now'],{genericStyle:['bg_fit']})
 }
 
 
 __SYD.about_text = () =>{
-    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#4AB6E8;border-radius:30px;color:#000000;display:flex;flex-direction:column;gap:15px;`},[
+    return $('p',{style:`border-right:5px solid #000000;border-bottom:5px solid #000000;font-size:${__p(['page2' , '__font'],{2:'20px'})['2']};line-height: unset;width:100%;max-width:800px;text-align:center;font-weight:100;padding:${__p(["page2" , "__flex"],"row") === "row" ? "50px" : "20px"};background:#000000;border-radius:30px;color:#ffffff;display:flex;flex-direction:column;gap:15px;border:1px solid rgba(255,255,255,.2);`},[
         $(
             "p",
             {
@@ -69,14 +69,14 @@ __SYD.about_text = () =>{
                 "About MR NICE $xingsworld"
             ]
         ),
-        $("p" , {style:`text-align:left;font-size:16px;`} , [
+        $("p" , {style:`text-align:left;font-size:16px;background-color:#0f0f0fff;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.2);`} , [
             `Xing Zhilei, a dad with a hammer and a heart full of love, builds a sprawling, full-sized cat mansion for his feline overlord, Mr. Nice. This isn’t your average scratching post—it’s a palace of ramps, tunnels, and cozy nooks, all made so Mr. Nice, the chillest cat on the block, could live like royalty.`
         ]),
-        $("p" , {style:`text-align:left;font-size:16px;`} , [
+        $("p" , {style:`text-align:left;font-size:16px;background-color:#0f0f0fff;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.2);`} , [
             `Xing’s TikTok (@xings.world, 637K+ followers, 7.2M likes) captures it all—epic builds, hammer swings, and Mr. Nice strutting through his empire like he owns the internet. When asked why he did it, Xing said simply: “My kid loves it”—and by kid, he meant his four-legged boss. The videos blew up, turning into pure gold for millions of fans cheering on this cat-dad duo.`
         ]),
-        $("p" , {style:`text-align:left;font-size:16px;`} , [
-            `Now comes Mr. Nice $XINGSWORLD, the Solana meme coin turning Mr. Nice’s swagger into crypto clout. Built on Solana’s lightning-fast chain, this token is for the dreamers who’d build castles for their cats—and the degens chasing the next big moon. It’s not just a coin—it’s a vibe, a nod to every pet parent who’s ever gone all-in for their furry “kid.`
+        $("p" , {style:`text-align:left;font-size:16px;background-color:#0f0f0fff;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.2);`} , [
+            `Now comes Mr. Nice $XINGSWORLD, the BSC meme coin turning Mr. Nice’s swagger into crypto clout. Built on BSC lightning-fast chain, this token is for the dreamers who’d build castles for their cats—and the degens chasing the next big moon. It’s not just a coin—it’s a vibe, a nod to every pet parent who’s ever gone all-in for their furry “kid.`
         ]),
         __SYD.contactBtn(),
         __SYD.copyCA()

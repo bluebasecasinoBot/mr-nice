@@ -37,7 +37,6 @@ __sS([
     {
         nameTag:"a_style",
         style: {
-            color:"#000000",
             minWidth:"max-content"
         }
     },

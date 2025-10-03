@@ -6,7 +6,7 @@ __SYD["navbar"] = () => {
     "nav",
     {
       style:
-        `display:flex;justify-content:${__p(["navbar" , "mobile"],false)?"space-between":"center"};align-items:center;padding:15px 40px;background-color:#FFD633;color:#000000;position:fixed;top:${__p(["navbar" , "float"],false) ? "10px" : "0px"};left:50%;transform:translateX(-50%);width:${__p(["navbar" , "float"],false) ? "calc(100% - 20px)" : "100%"};z-index:99999;gap:30px;border-radius:${__p(["navbar" , "float"],false) ? "20px" : "0px"};border-bottom:2px solid #000;`,
+        `display:flex;justify-content:${__p(["navbar" , "mobile"],false)?"space-between":"center"};align-items:center;padding:15px 40px;background-color:#F3BA2F;color:#000000;position:fixed;top:${__p(["navbar" , "float"],false) ? "10px" : "0px"};left:50%;transform:translateX(-50%);width:${__p(["navbar" , "float"],false) ? "calc(100% - 20px)" : "100%"};z-index:99999;gap:30px;border-radius:${__p(["navbar" , "float"],false) ? "20px" : "0px"};border-bottom:2px solid #000;`,
     },
     [
       // Left: logo
@@ -54,8 +54,8 @@ __SYD["navbar"] = () => {
       ),
       $(
         "div",
-        {style:`cursor:pointer;height:25px;width:25px;background-image:url(./assets/menu.svg);display:${__p(["navbar" , "mobile"],false) ? "flex" : "none"};`},
-        [],{genericStyle:["bg_fit"],events:{onclick:e=>{updateState({name:"navbar",prop:"tog",value:__p(["navbar","tog"])?false:true})}}}
+        {style:`cursor:pointer;height:40px;width:40px;background-image:url(./assets/menu.svg);display:${__p(["navbar" , "mobile"],false) ? "flex" : "none"};`},
+        [],{genericStyle:["bg_cover"],events:{onclick:e=>{updateState({name:"navbar",prop:"tog",value:__p(["navbar","tog"])?false:true})}}}
       )
     ],
     {

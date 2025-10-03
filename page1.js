@@ -35,10 +35,10 @@ __SYD["page1"] = () => {
                     [
                     $(
                         "h1",
-                        { style: __sC["hero_title"]({method:"add",style:{color:"#FFD633"}}) , class:"hero_title" },
+                        { style: __sC["hero_title"]({method:"add",style:{color:"#F3BA2F"}}) , class:"hero_title" },
                         [
-                            $("p",{style:__sC["stroked"]()},["MR NICE"]),
-                            $("p",{style:__sC["stroked"]()+"font-size:18px;font-weight:700;"},["$xingsworld)"]),
+                            $("p",{style:__sC["stroked"]()+"padding:20px;background-color:#000;border-radius:20px;border:1px solid rgba(255,255,255,.2);"},["MR NICE"]),
+                            $("p",{style:__sC["stroked"]()+"font-size:18px;font-weight:700;"},["$xingsworld"]),
                             $(
                                 "div",
                                 { style: __sC["nav_actions"]() },

@@ -10,6 +10,7 @@ import "./page4.js"
 import "./page5.js"
 import "./faq.js"
 import "./footer.js"
+import "./gallery.js"
 import { updateState } from "./stateAssets.js";
 
 __SYD.container = function()
@@ -25,6 +26,7 @@ __SYD.container = function()
             __SYD.page1(),
             __SYD.page2(),
             __SYD.page3(),
+            __SYD.gallery(),
             __SYD.page4(),
             __SYD.faq(),
             __SYD.page5(),
@@ -101,7 +103,10 @@ __m(__SYD.container(),()=>{
             canvas2.width = video.videoWidth;
             canvas2.height = video.videoHeight;
 
-            updateState({name:"introPage",prop:"showEnter",value:true});
+            updateState({name:"introPage",prop:"animateStart",value:true});
+            setTimeout(() => {
+                updateState({name:"introPage",prop:"showEnter",value:true});
+            }, 2000);
         });
     }, 1000);
 

@@ -18,7 +18,7 @@ __SYD.sliderMain = () =>{
             $(
                 'div',
                 {
-                    style:'height:100%;min-width:fit-content;background:#FFD633;display:flex;column-gap:30px;padding:0 15px;',
+                    style:'height:100%;min-width:fit-content;background:#F3BA2F;display:flex;column-gap:30px;padding:0 15px;',
                     class:"slider_anime"
                 },
                 [
@@ -47,7 +47,7 @@ __SYD.sliderMain2 = () =>{
             $(
                 'div',
                 {
-                    style:'height:100%;min-width:fit-content;background:#FFD633;display:flex;column-gap:30px;padding:0 15px;',
+                    style:'height:100%;min-width:fit-content;background:#F3BA2F;display:flex;column-gap:30px;padding:0 15px;',
                     class:"slider_anime"
                 },
                 [

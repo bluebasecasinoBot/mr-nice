@@ -10,7 +10,7 @@ __SYD["page4"] = () => {
             },
             [
                 $("h2", {
-                style: "font-size:2.5rem; font-weight:700; color:#ffffff; margin-bottom:20px;"
+                style: "width:fit-content;font-size:2.5rem; font-weight:700; color:#F3BA2F; margin-bottom:20px;padding:20px 30px;background-color:#000;border-radius:20px;border:1px solid rgba(255,255,255,.2);text-align:center;"
                 }, ["Why $xingsworld"]),
                 
                 $("p", {
@@ -33,7 +33,7 @@ __SYD["page4"] = () => {
                                 style: "min-width:30px;width:30px; height:30px; font-size:20px;background-image:url(./assets/check.svg);"
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
-                                style: "font-weight:600;"
+                                style: "font-weight:300;"
                             }, ["Built on Culture – Straight from TikTok virality to the blockchain."])
                         ]),
                         
@@ -45,7 +45,7 @@ __SYD["page4"] = () => {
                                 style: "min-width:30px;width:30px; height:30px; font-size:20px;background-image:url(./assets/check.svg);"
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
-                                style: "font-weight:600;"
+                                style: "font-weight:300;"
                             }, ["Community-Powered – No big suits, just people having fun and growing together."])
                         ]),
                         
@@ -57,7 +57,7 @@ __SYD["page4"] = () => {
                                 style: "min-width:30px;width:30px; height:30px; font-size:20px;background-image:url(./assets/check.svg);"
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
-                                style: "font-weight:600;"
+                                style: "font-weight:300;"
                             }, ["Pets & Positivity – A symbol of care, love, and good vibes."])
                         ]),
 
@@ -69,7 +69,7 @@ __SYD["page4"] = () => {
                                 style: "min-width:30px;width:30px; height:30px; font-size:20px;background-image:url(./assets/check.svg);"
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
-                                style: "font-weight:600;"
+                                style: "font-weight:300;"
                             }, ["No Overthinking – It’s memes, it’s vibes, it’s good energy."])
                         ]),
 
@@ -81,7 +81,7 @@ __SYD["page4"] = () => {
                                 style: "min-width:30px;width:30px; height:30px; font-size:20px;background-image:url(./assets/check.svg);"
                             },[],{genericStyle:["bg_cover"]}),
                             $("span", {
-                                style: "font-weight:600;"
+                                style: "font-weight:300;"
                             }, ["For the People (and Pets) – A coin that’s about fun first, charts second."])
                         ])
                     ])
