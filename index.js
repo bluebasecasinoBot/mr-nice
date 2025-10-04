@@ -106,6 +106,8 @@ __m(__SYD.container(),()=>{
             updateState({name:"introPage",prop:"animateStart",value:true});
             setTimeout(() => {
                 updateState({name:"introPage",prop:"showEnter",value:true});
+
+                updateState({name:"gallery",prop:"useSrc",value:true})
             }, 2000);
         });
     }, 1000);
