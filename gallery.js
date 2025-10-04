@@ -1,4 +1,4 @@
-import { $, __SYD } from "./sydneyDom_v3.js";
+import { $, __p, __SYD } from "./sydneyDom_v3.js";
 
 __SYD.gallery = function()
 {
@@ -16,7 +16,13 @@ __SYD.gallery = function()
             __SYD.images(.4 , "g6"),
             __SYD.images(.5 , "g7"),
             __SYD.images(.5 , "g8"),
-        ]
+        ],
+        {
+            createState:{
+                stateName:"gallery",
+                state:{useSrc:false}
+            }
+        }
     )
 }
 
@@ -29,7 +35,7 @@ __SYD.images = (flex , vid) =>{
         [
             $(
                 "video",
-                {style:"width:100%;height:auto;pointer-events:none;position:absolute;top:50%;transform:translateY(-50%);left:0px;" , src:`./assets/${vid}.mp4` , muted:true}
+                {style:"width:100%;height:auto;pointer-events:none;position:absolute;top:50%;transform:translateY(-50%);left:0px;" , ...(__p(["gallery","useSrc"],false) ? {src:`./assets/${vid}.mp4`} : {}) , muted:true}
             )
         ],
         {
