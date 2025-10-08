@@ -24,14 +24,15 @@ __SYD.contactBtn_footer = function()
             ),
             $(
                 "a",
-                {style:`cursor:pointer;height:40px;width:40px;background-image:url(./assets/tg-nav.svg);`,href:""},
+                {style:`cursor:pointer;height:40px;width:40px;background-image:url(./assets/tg-nav.svg);`,href:"https://t.me/mrnice_bsc"},
                 [],{genericStyle:["bg_fit"],events:{onclick:e=>{updateState({name:"navbar",prop:"tog",value:__p(["navbar","tog"])?false:true})}}}
             ),
             $(
                 "a",
-                {style:`cursor:pointer;height:40px;width:40px;background-image:url(./assets/x-nav.png);`,href:""},
+                {style:`cursor:pointer;height:40px;width:40px;background-image:url(./assets/x-nav.png);`,href:"https://x.com/mrnice_bsc"},
                 [],{genericStyle:["bg_fit"],events:{onclick:e=>{updateState({name:"navbar",prop:"tog",value:__p(["navbar","tog"])?false:true})}}}
             )
         ]
     )
+
 }
