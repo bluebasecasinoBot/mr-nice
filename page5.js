@@ -41,11 +41,12 @@ __SYD.p5_text = () =>{
             { style: __sC["nav_actions"]() },
             [
                 $(
-                    "button",
-                    { style:"padding:15px 20px;background:#fff;border:2px solid #000000;border-radius:15px;border-bottom:5px solid #000000;border-right:5px solid #000000;overflow:hidden;display:flex;align-items:center;padding-left:15px;font-weight:900;cursor:pointer;min-width:max-content;margin:auto;"},
+                    "a",
+                    { href:"https://t.me/mrnice_bsc",style:"text-transform:capitalize;color:#000;padding:15px 20px;background:#fff;border:2px solid #000000;border-radius:15px;border-bottom:5px solid #000000;border-right:5px solid #000000;overflow:hidden;display:flex;align-items:center;padding-left:15px;font-weight:900;cursor:pointer;min-width:max-content;margin:auto;"},
                     ["Join the Community"]
                 ),
             ]
         ),
     ])
+
 }
